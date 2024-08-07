@@ -23,6 +23,7 @@ import androidx.compose.material.icons.filled.Place
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.ArrowForward
 import androidx.compose.material.icons.filled.Menu
+import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FloatingActionButton
@@ -128,7 +129,7 @@ fun ScaffoldExample() {
                         verticalAlignment = Alignment.CenterVertically,
                         modifier = Modifier.padding(horizontal = 8.dp)
                     ) {
-                        Icon(Icons.Filled.ArrowForward, contentDescription = "Navigate")
+                        Icon(Icons.Filled.PlayArrow, contentDescription = "Navigate")
                         Spacer(modifier = Modifier.width(8.dp))
                         Text(text = "Navigate")
                     }
